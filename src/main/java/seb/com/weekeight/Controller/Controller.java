@@ -8,7 +8,6 @@ import seb.com.weekeight.Repository.CarRepository;
 
 @RestController
 @RequestMapping
-
 public class Controller {
 
     @Autowired

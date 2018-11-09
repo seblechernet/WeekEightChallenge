@@ -10,7 +10,7 @@ public class Car {
 
     @Id
     @GeneratedValue
-    private long id;
+    private long carId;
     private String vinNumber;
     private String make;
     private String model;
@@ -26,12 +26,12 @@ public class Car {
     public Car() {
     }
 
-    public long getId() {
-        return id;
+    public long getcarId() {
+        return carId;
     }
 
-    public void setId(long id) {
-        this.id = id;
+    public void setcarId(long id) {
+        this.carId = id;
     }
 
     public String getVinNumber() {
